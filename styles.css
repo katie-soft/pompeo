@@ -67,7 +67,7 @@
 
 .main {
   height: 708px;
-  background-image:  url(https://stackblitz.com/files/pompeo/github/katie-soft/pompeo/main/background1.png);           
+  background-image: url(background2.png), url(https://stackblitz.com/files/pompeo/github/katie-soft/pompeo/main/background1.png);           
 }
 
 .main__text {
