@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  max-width: 1440px;
+  height: 91px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  padding: 34px 150px 35px 135px;
+}
+
+.header__logo {
+  display: block;
+  width: 109px;
+  height: 45px;
+  background-image: url(https://buttered-snowstorm-6f0.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F62e52131-7263-4d62-8f1f-81976a681f2f%2FUntitled.png?table=block&id=297f44b5-472e-4621-8d53-31fbf881894b&spaceId=5652bde3-7d8d-45c1-b530-530532dfd0cb&width=2000&userId=&cache=v2);
+  background-repeat: no-repeat;
+}
+
+.header__list {
+  display: flex;
+  list-style-type: none;
+  gap: 40px;
+  align-items: center;
+}
+
+.header__item {
+  display: flex;
+  align-items: center;
+}
+
+.header__link {
+  text-transform: uppercase;
+  color: #6c6c6c;
+  text-decoration: none;
+}
+
+.header__link_cart {
+  text-transform: none;
+}
+
+.header__item__line {
+  width: 1px;
+  height: 38px;
+  background-color: #ebebeb;
+  margin-right: 15px;
+}
+
+.header__item__cart {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.main {
+  height: 708px;
+  background-image: url(https://buttered-snowstorm-6f0.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F3590a6ec-3168-4542-b45d-bb5b71798a2e%2Fimage_(2).png?table=block&id=4640dcf4-9729-45b0-977f-69a5d5f9966a&spaceId=5652bde3-7d8d-45c1-b530-530532dfd0cb&width=2000&userId=&cache=v2);
+}
