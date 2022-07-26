@@ -67,12 +67,15 @@
 
 .main {
   height: 708px;
-  background-image: url(https://stackblitz.com/files/pompeo/github/katie-soft/pompeo/main/background2.png);           
+  background-image: url(https://stackblitz.com/files/pompeo/github/katie-soft/pompeo/main/background1.png), url(https://stackblitz.com/files/pompeo/github/katie-soft/pompeo/main/images/background2.png);          
+  background-repeat: no-repeat;
+  background-position: right; 
 }
 
 .main__text {
   padding-left: 144px;
   padding-top: 194px;
+   
 }
 
 .main__title_section {
@@ -91,6 +94,7 @@
 
 .main__img {
   width: 57px;
+  
 }
 
 .main__desc {
