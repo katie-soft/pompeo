@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url(@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Poppins:wght@500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
 
 * {
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 .header {
@@ -11,8 +13,7 @@
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
-  font-family: 'Poppins', sans-serif;
-  padding: 34px 150px 35px 135px;
+   padding: 34px 150px 35px 135px;
 }
 
 .header__logo {
@@ -43,6 +44,7 @@
 
 .header__link_cart {
   text-transform: none;
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 .header__item__line {
@@ -65,5 +67,44 @@
 
 .main {
   height: 708px;
-  background-image: url('images/And.png');
+  background-image:  url(https://stackblitz.com/files/pompeo/github/katie-soft/pompeo/main/background1.png);           
+}
+
+.main__text {
+  padding-left: 144px;
+  padding-top: 194px;
+}
+
+.main__title_section {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  color: #D77474;
+  line-height: 24px;
+}
+
+.main__title_page {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 36px;
+}
+
+.main__desc {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.main__btn {
+  display: block;
+  width: 201px;
+  height: 62px;
+  background-color: #AC1313;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 22px;
+  padding: 19px 31px 21px 40px;
+  margin-left: 144px;
+  margin-top: 60px;
 }
