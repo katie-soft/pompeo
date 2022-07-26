@@ -67,7 +67,7 @@
 
 .main {
   height: 708px;
-  background-image: url(https://stackblitz.com/files/pompeo/github/katie-soft/pompeo/main/background1.png), url(https://stackblitz.com/files/pompeo/github/katie-soft/pompeo/main/images/background2.png);          
+  background-image: url(https://stackblitz.com/files/pompeo/github/katie-soft/pompeo/main/images/background2.png), url(https://stackblitz.com/files/pompeo/github/katie-soft/pompeo/main/background1.png);          
   background-repeat: no-repeat;
   background-position: right; 
 }
@@ -86,16 +86,23 @@
   line-height: 24px;
 }
 
+.main__title_page_row1 {
+  display: flex;
+}
+
+.main__title_page_row2 {
+  margin-top: -30px;
+}
 .main__title_page {
   font-weight: 800;
   font-size: 48px;
-  line-height: 36px;
+  
 }
 
 .main__img {
   width: 57px;
-  
-}
+  height: 57px;
+  }
 
 .main__desc {
   font-family: 'Libre Franklin', sans-serif;
