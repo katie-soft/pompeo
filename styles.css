@@ -75,7 +75,6 @@
 .main__text {
   padding-left: 144px;
   padding-top: 194px;
-   
 }
 
 .subtitle {
@@ -93,6 +92,18 @@
 .title_size-l {
   font-weight: 800;
   font-size: 48px;
+}
+
+.title_size-m {
+  font-size: 40px;
+  font-weight: 800;
+  margin: 0 auto;
+}
+
+.title_size-s {
+  font-size: 29px;
+  font-weight: 700;
+  margin: 0 auto;
 }
 
 .main__img {
@@ -118,4 +129,70 @@
   padding: 19px 31px 21px 40px;
   margin-left: 144px;
   margin-top: 60px;
+}
+
+.second-page {
+  height: 969px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.circles {
+  display: flex;
+  height: 240px;
+  width: 1440px;
+}
+
+.side-text {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #dbdbdb;
+  text-transform: uppercase;
+  transform: rotate(-90deg);
+}
+
+.circle {
+  width: 240px;
+  height: 240px;
+  border: 30px solid rgba(0, 0, 0, 0.05);
+  border-radius: 240px;
+  color:#fff;
+  position: relative;
+}
+
+.circle_beige {
+  background-color: #E4B366;
+}
+
+.circle_orange {
+  background-color: #F05B10;
+}
+
+.circle_red {
+  background-color: #A21010;
+}
+
+.circle__img {
+  
+}
+
+.circle__name {
+  position: absolute;
+  top: calc(50% - 38px/2 + 45px);
+  left: calc(50% - 48px/2);
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.second-page__text {
+  display: flex;
+}
+
+.desc {
+  font-family: 'Libre Franklin';
+  font-size: 14px;
 }
