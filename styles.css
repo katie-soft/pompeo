@@ -67,9 +67,15 @@
 
 .main {
   height: 708px;
-  background-image: url(https://stackblitz.com/files/pompeo/github/katie-soft/pompeo/main/images/background.png);          
+  background-image: url(https://stackblitz.com/files/pompeo/github/katie-soft/pompeo/main/background.png);          
   background-repeat: no-repeat;
-  background-position: right; 
+  position: relative;
+  }
+
+.vase-bckgr{
+  position: absolute;
+  left: 623px;
+  top: 100px;
 }
 
 .main__text {
