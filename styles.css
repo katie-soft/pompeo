@@ -221,5 +221,18 @@
   font-family: 'Libre Franklin';
   font-size: 14px;
   width: 501px;
+}
 
+.third-page {
+  width: 1440px;
+  height: 1000px;
+  display: flex;
+}
+
+.feat-products {
+  width: 500px;
+}
+
+.feat-products__img {
+  background-image: ;
 }
