@@ -112,6 +112,10 @@
   margin: 0 auto;
 }
 
+.title_size-xs {
+  font-size: 24px;
+}
+
 .main__img {
   width: 57px;
   height: 57px;
@@ -234,5 +238,7 @@
 }
 
 .feat-products__img {
-  background-image: ;
+  background-image: url(https://stackblitz.com/files/pompeo/github/katie-soft/pompeo/main/images/Rectangle.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
